@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 const Navbar = () => {
   const styles = {
     color: "black",
@@ -85,7 +85,7 @@ const Navbar = () => {
           <details className="details">
             <summary>Collection</summary>
             <div className="collection">
-              <NavLink className="link " to="All-In-One-store/collection">
+              <NavLink className="link" to="/All-In-One-store/collection">
                 <p className="list">Men</p>
               </NavLink>
             </div>
