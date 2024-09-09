@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+}
+.myheader {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 70px;
+  color: black;
+}
+.container2 {
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.383);
+  background-color: rgb(205, 219, 255);
+  width: 50%;
+  padding: 40px 30px;
+  max-width: 500px;
+  min-width: 300px;
+}
+.my-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.labelemail {
+  font-size: 25px;
+  position: relative;
+  left: -105px;
+  color: black;
+}
+.valid {
+  position: relative;
+  top: 10px;
+  left: -105px;
+  font-size: 12px;
+  margin-bottom: 50px;
+  color: green;
+}
+.inputEmail {
+  width: 17rem;
+  height: 35px;
+  border: none;
+  border-bottom: 3px solid black;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.labelPassword {
+  font-size: 25px;
+  position: relative;
+  left: -80px;
+  color: black;
+}
+.inputPassword {
+  width: 17rem;
+  height: 35px;
+  background: transparent;
+
+  border: none;
+  border-bottom: 3px solid black;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.login-btn {
+  padding: 15px 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(117, 117, 247, 0.507);
+  cursor: pointer;
+  width: 17rem;
+  color: white;
+  margin-top: 30px;
+}
+.login-btn:hover {
+  background-color: rgba(108, 108, 243, 0.589);
+}
+.login-btn:active {
+  background-color: rgba(82, 82, 243, 0.674);
+}

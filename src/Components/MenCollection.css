@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shoes {
+  width: 18rem;
+  height: 15rem;
+  object-fit: cover;
+  filter: saturate(2);
+}
+.menCollectionAll {
+  background-color: white;
+  box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, 0.134);
+  width: 18rem;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.collectioncolors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.collection-red {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.collection-green {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.collection-gray {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.padding-collection {
+  padding-inline: 10px;
+}
+.linethrough {
+  text-decoration: line-through red;
+  color: red;
+}
+.price {
+  display: flex;
+}
+.actualPrice {
+  color: red;
+}
+
+.contentAndImage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  place-items: center;
+}
+.mens-collection {
+  flex-wrap: wrap;
+}
+/* for media query */
+@media (max-width: 1230px) {
+  .contentAndImage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+}
+
+@media (max-width: 965px) {
+  .contentAndImage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+}
+
+@media (max-width: 936px) {
+  .contentAndImage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+}
+@media (max-width: 936px) {
+  .contentAndImage {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .shoes {
+    width: 14rem;
+    height: 14rem;
+  }
+  .menCollectionAll {
+    width: 14rem;
+  }
+}
+@media (max-width: 520px) {
+  .shoes {
+    overflow: hidden;
+    width: 100%;
+    height: 20rem;
+  }
+  .menCollectionAll {
+    width: 100%;
+  }
+  .contentAndImage {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}
