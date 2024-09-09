@@ -27,10 +27,7 @@ const Navbar = () => {
         </button>
         <nav className="first-nav">
           <NavLink
-            className={(e) => {
-              return e.isActive ? "red" : "";
-            }}
-            to="/"
+            to="/All-In-One-store/"
             style={{
               textDecoration: "none",
             }}
@@ -38,10 +35,7 @@ const Navbar = () => {
             <li className="link">Home</li>
           </NavLink>
           <NavLink
-            className={(e) => {
-              return e.isActive ? "red" : "";
-            }}
-            to="/about"
+            to="/All-In-One-store/about"
             style={{
               textDecoration: "none",
             }}
@@ -51,17 +45,16 @@ const Navbar = () => {
           <details className="details">
             <summary>Collection</summary>
             <div className="collection">
-              <NavLink className="link" to="/collection">
+              <NavLink className="link" to="/All-In-One-store/collection">
                 <p className="list">Men</p>
               </NavLink>
             </div>
           </details>
           <NavLink
-            to="/login"
+            to="/All-In-One-store/login"
             style={{
               textDecoration: "none",
             }}
-            className={(e) => (e.isActive ? "red" : "")}
           >
             <li className="link">Login</li>
           </NavLink>
@@ -74,10 +67,7 @@ const Navbar = () => {
             <i className="fa-solid fa-xmark"></i>
           </button>
           <NavLink
-            className={(e) => {
-              return e.isActive ? "red" : "";
-            }}
-            to="/"
+            to="/All-In-One-store/"
             style={{
               textDecoration: "none",
             }}
@@ -85,10 +75,7 @@ const Navbar = () => {
             <li className="link">Home</li>
           </NavLink>
           <NavLink
-            className={(e) => {
-              return e.isActive ? "red" : "";
-            }}
-            to="/about"
+            to="/All-In-One-store/about"
             style={{
               textDecoration: "none",
             }}
@@ -104,11 +91,10 @@ const Navbar = () => {
             </div>
           </details>
           <NavLink
-            to="/login"
+            to="/All-In-One-store/login"
             style={{
               textDecoration: "none",
             }}
-            className={(e) => (e.isActive ? "red" : "")}
           >
             <li className="link">Login</li>
           </NavLink>
