@@ -122,7 +122,7 @@ NavLink {
   }
   .collection {
     position: absolute;
-    top: 35rem;
+    top: 28rem;
   }
 }
 @media (max-width: 1160px) {
@@ -172,6 +172,10 @@ NavLink {
   }
   .menu-hide-show-btn {
     font-size: 20px;
+  }
+  .collection {
+    position: absolute;
+    top: 28rem;
   }
 }
 @media (max-width: 360px) {
