@@ -85,9 +85,10 @@ nav {
   margin-top: 150px;
 }
 .red {
-  background-color: rgb(0, 0, 128);
+  background-color: rgba(0, 0, 0, 0.222);
   padding: 20px 30px;
 }
+
 NavLink {
   text-decoration: none;
 }

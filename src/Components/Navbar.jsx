@@ -71,6 +71,7 @@ const Navbar = () => {
             style={{
               textDecoration: "none",
             }}
+            onClick={hide}
           >
             <li className="link">Home</li>
           </NavLink>
@@ -79,13 +80,18 @@ const Navbar = () => {
             style={{
               textDecoration: "none",
             }}
+            onClick={hide}
           >
             <li className="link">About</li>
           </NavLink>
           <details className="details">
             <summary>Collection</summary>
             <div className="collection">
-              <NavLink className="link" to="/All-In-One-store/collection">
+              <NavLink
+                className="link"
+                to="/All-In-One-store/collection"
+                onClick={hide}
+              >
                 <p className="list">Men</p>
               </NavLink>
             </div>
@@ -95,6 +101,7 @@ const Navbar = () => {
             style={{
               textDecoration: "none",
             }}
+            onClick={hide}
           >
             <li className="link">Login</li>
           </NavLink>
