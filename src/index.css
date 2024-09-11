@@ -123,7 +123,7 @@ NavLink {
   }
   .collection {
     position: absolute;
-    top: 28rem;
+    top: 30rem;
   }
 }
 @media (max-width: 1160px) {
@@ -176,7 +176,7 @@ NavLink {
   }
   .collection {
     position: absolute;
-    top: 28rem;
+    top: 29rem;
   }
 }
 @media (max-width: 360px) {
