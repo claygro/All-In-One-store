@@ -176,7 +176,6 @@ NavLink {
   }
   .collection {
     position: absolute;
-    top: 29rem;
   }
 }
 @media (max-width: 360px) {
